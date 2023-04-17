@@ -7,7 +7,7 @@ function App() {
   const [score ,setScore]=useState(0);
   const [currentQestion,setCurrentQestion]=useState(0);
 
-
+const [age,setAge]=useState()
   const questions = [
     {
       text: "Başkalarının yanında heyecanımı kontrol edebilirim.",
